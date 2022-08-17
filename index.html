@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html>
 
+<html>
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>pung</title>
 </head>
 
 <body>
-<h1>RABIN</h1>
-<body bgcolor="pink"></body>
-<marquee>Hi</marquee>
-<p>hi my name is rabin and we are prece lover</p>
-<img src="image.jpg">
-</body>
+  <link rel="stylesheet" href="Cal.css">
+  <body bgcolor="Pink"></body>
+ <center>  <div class="title">
+      Made by rabin
+    </div>
+    <form name="Calculator" class="calculator">
+  
 
+<input class="screen" type="text" name="Input"  id="display">  
+<br>  
+
+<br>
+
+<input class="int" type="button" name = "one" value=" 1 " OnClick="Calculator.Input.value += '1'">  
+<input class="int" type="button" name = "two"  value=" 2 " OnCLick="Calculator.Input.value += '2'">  
+<input class="int" type="button" name = "three" value=" 3 " OnClick="Calculator.Input.value += '3'">  
+<input class="el" type="button" name="add"  value=" + " OnClick="Calculator.Input.value += ' + '">  
+<br>
+<input class="int" type="button" name = "four" value=" 4 " OnClick="Calculator.Input.value += '4'">  
+<input class="int" type="button" name = "five" value=" 5 " OnCLick="Calculator.Input.value += '5'">  
+<input class="int" type="button" name = "six" value=" 6 " OnClick="Calculator.Input.value += '6'">  
+<input class="el" type="button" name = "minus" value=" - " OnClick="Calculator.Input.value += ' - '">  
+<br>  
+<input class="int" type="button" name = "seven" value=" 7 " OnClick="Calculator.Input.value += '7'">  
+<input class="int" type="button" name = "eight" value=" 8 " OnCLick="Calculator.Input.value += '8'">  
+<input class="int" type="button" name = "nine" value=" 9 " OnClick="Calculator.Input.value += '9'">  
+<input class="el" type="button" name = "mul" value=" * "   
+OnClick="Calculator.Input.value += ' * '">  
+<br>  
+<input class="el" type="button" name = "clear" value=" c " OnClick="Calculator.Input.value = ''">  
+
+<input class="el" type="button" name="zero" value=" 0 " OnClick="Calculator.Input.value += '0'">  
+<input class="el" type="button" name="DoIt" value=" = " OnClick="Calculator.Input.value = eval(Calculator.Input.value)">  
+<input  class="el" type="button" name="div" value=" / " OnClick="Calculator.Input.value += ' / '">  
+<br>  
+
+
+    </form>
+    
+ </center>
+ 
+</body>
 </html>
+
+
