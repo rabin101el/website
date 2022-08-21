@@ -1,42 +1,105 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  
+}
+body{
+  background: url(hello.jpg);
+  min-height: 100vh;
+width: 100%;
+
+background-position: center;
+background-size: cover;
+position: relative;
 }
 
-.calculator{
-  height: 450px;
-  width: 300px;
-  background: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  box-shadow: 0 0 10px black;
-  }
+
+.back{
+  height: 1000px;
+  width: 500px;
+}
+
+
+ul{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
   
-  .int{
-    height: 50px;
-    width:  50px;
-    color: red;
-    
-    
-  }
-  .screen{
-    height: 100px;
-    width: 100px;
-    background: none;
-    border: none;
-    
-  }
-  .el{
-    height: 50px;
-    width: 50px;
-    color: blue;
-    
-  }
-  .pl{
-    height: 50px;
-    width: 50px;
-    color: green;
-  }
+}
+.nav{
+  
+  text-align: right;
+}
+.nav ul li{
+  display: inline-block;
+  position: relative;
+  
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #1298C8;
+  display: block;
+  margin: auto;
+  transform: 0.5s;
+  
+}
+.nav ul li:hover::after{
+  width: 100%;
+  
+}
+.text{
+  width: 90%;
+top: 15%;
+left: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
+.para{
+  width: 100%;
+  top: 28%;
+  left: 60%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+  
+}
+.and{
+  text-align: center;
+  top:27%;
+  left: 50%;
+}
+img{
+  height: 100px;
+  top: 100%;
+  left: 1%;
+  position: absolute;
+}
+
+.musica{
+  text-decoration: none;
+  position: absolute;
+  top: 150%;
+  display: inline-block;
+  font-size: 30px;
+  left: 30%;
+  
+}
+.musicb{
+  position: absolute;
+  top: 150%;
+  display: inline-block;
+  
+  left: 50%;
+  
+}
