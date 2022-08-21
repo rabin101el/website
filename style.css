@@ -5,8 +5,9 @@
 }
 body{
   background: url(hello.jpg);
-  min-height: 100vh;
-width: 100%;
+  height: 630px;
+width: 350px;
+background-repeat: repeat-x;
 
 background-position: center;
 background-size: cover;
@@ -20,7 +21,7 @@ position: relative;
 }
 
 
-ul{
+.ul{
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
@@ -79,11 +80,12 @@ left: 70%;
   top:27%;
   left: 50%;
 }
-img{
+.mus-logo{
   height: 100px;
   top: 100%;
   left: 1%;
   position: absolute;
+  text-decoration: none;
 }
 
 .musica{
@@ -100,6 +102,33 @@ img{
   top: 150%;
   display: inline-block;
   
-  left: 50%;
+  left: 60%;
+  
+}
+.footer{
+  position: absolute;
+  top: 550%;
+  list-style: none;
+  
+  
+}
+.footer ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  
+}
+.foot{
+  list-style: none;
+text-decoration: none;
+}
+.img-foot{
+  position: absolute;
+  top: 630px;
+  background-repeat: repeat-x;
+
+
+
+
   
 }
